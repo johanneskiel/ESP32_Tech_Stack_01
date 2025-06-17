@@ -410,8 +410,8 @@ ESP32 as TCP web server with interactive browser interface: displays live potent
 ESP32 communication via UDP/OSC (Open Sound Control). Fast real-time communication for TouchDesigner program.
 #### hands on (OPTIONAL! We will all do this together on one laptop):  
 - If TouchDesigner is installed on your laptop: open the TouchDesigner project  
-- Open a UDP port in the "servercell" for your laptop  
-- Change the port in the OSCin CHOP to the opened port  
+- paste you laptop IP in the ESP32 code
+- change the port in the OSCin CHOP to the touchdesigner_port in the ESP32 code  
 - Turn the potentiometer and observe how the values in the OSCin CHOP change in TouchDesigner  
 
 
@@ -422,7 +422,7 @@ ESP32 communication with Python server via UDP/OSC. Fast data transmission.
 - Connect your ESP32 to the server (the server terminal will be visible to everyone on the projector)  
 - Turn the potentiometer and see what happens  
 #### hands on, alone (OPTIONAL! We will all do this together on one laptop): 
-- Wifi and port setup as described in 3_1_UDP  
+- IP setup as described in 3_1_UDP  
 - Open the terminal on your laptop  
 - Navigate to the Python project folder: enter "cd <your path>/3_1_UDP OSC python server/python"  
 - (Advanced: enter your python environment)  
@@ -441,7 +441,7 @@ ESP32 as controller via UDP/OSC and Python game server. Fast multiplayer control
 - Turn the potentiometer and see what happens  
 - Have fun together :D  
 #### hands on, alone (OPTIONAL! We will all do this together on one laptop): 
-- Wifi and port setup as described in 3_1_UDP  
+- IP setup as described in 3_1_UDP  
 - Open the terminal on your laptop  
 - Navigate to the Python project folder: enter "cd <your path>/3_3_UDP OSC python game server/python"  
 - (Advanced: enter your python environment)  
