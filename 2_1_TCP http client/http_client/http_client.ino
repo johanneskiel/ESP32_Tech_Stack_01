@@ -53,7 +53,6 @@ void setup() {
     Serial.println("offline");
     ESP.restart();
   }
-  delay(5000); 
 }
 
 
