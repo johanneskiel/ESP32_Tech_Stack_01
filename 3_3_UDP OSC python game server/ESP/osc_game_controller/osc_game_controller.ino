@@ -20,7 +20,7 @@
 
 const char* ssid = "servercell";
 const char* password = "qwer1234";
-const char* ip = "192.168.10.147";  
+const char* ip = "192.168.10.136";  
 int port = 12345;
 int local_port = 8888; 
 

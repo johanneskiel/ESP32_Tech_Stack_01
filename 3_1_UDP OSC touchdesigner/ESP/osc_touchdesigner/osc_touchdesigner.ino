@@ -31,7 +31,7 @@ const char* ssid = "servercell";
 const char* password = "qwer1234";
 
 // Defines touchdesigner IP and Port
-const char* touchdesigner_ip = "192.168.10.147";  
+const char* touchdesigner_ip = "192.168.10.136";  
 int touchdesigner_port = 12345;
 
 // Defines local port
