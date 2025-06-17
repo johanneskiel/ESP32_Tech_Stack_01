@@ -40,7 +40,7 @@ void setup() {
 
 // after setup(), loop() starts automatically and repeats infinitely (until the ESP32 loses power)
 void loop() {
-  // every 2000 milliseconds / 2 seconds: if connected: "online", otherwise: "offline" and ESP32 is restarted. 
+  // every 2000 milliseconds / 2 seconds: if connected: "online", otherwise: "offline" and ESP32 restarts. 
   if (WiFi.status() == WL_CONNECTED) {
     Serial.println("online");
   } else {
