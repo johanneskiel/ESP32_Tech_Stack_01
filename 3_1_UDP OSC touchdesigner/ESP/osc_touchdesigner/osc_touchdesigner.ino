@@ -6,8 +6,8 @@
 // 
 // hands on (OPTIONAL! We will all do this together on one laptop):
 //    - If TouchDesigner is installed on your laptop: open the TouchDesigner project
-//    - Open a UDP port in the "servercell" for your laptop
-//    - Change the port in the OSCin CHOP to the opened port
+//    - paste you laptop IP in the ESP32 code
+//    - change the port in the OSCin CHOP to the touchdesigner_port in the ESP32 code
 //    - Turn the potentiometer and observe how the values in the OSCin CHOP change in TouchDesigner
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
