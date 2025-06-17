@@ -314,7 +314,7 @@ The ESP32 code examples provided systematically guide you through the most impor
 
 ### 1_1_ESP32 bits/32_bit
 Demonstration of ESP32 32-bit architecture. Shows how 8-bit (0-255) and 32-bit (0-4,294,967,295) variables differ in their value ranges and memory usage.
-#### Goal: 
+#### hands on: 
 - Upload a program sketch to the ESP32 microcontroller for the first time  
 - Open the Serial Monitor  
 - Observe how the 8-bit variable jumps back to 0 after reaching 255  
