@@ -323,7 +323,7 @@ Demonstration of ESP32 32-bit architecture. Shows how 8-bit (0-255) and 32-bit (
 ### 1_2_ESP32 setup/setup_test
 Basic ESP32 hardware setup with GPIO pins. Make LED blink and output potentiometer values via Serial.
 #### hands on: 
-- Mount the ESP32 on the breadboard and connect the potentiometer to the correct pins (see code)  
+- Mount the ESP32 on the breadboard and connect the potentiometer to the correct pins (see ESP_poti.png) 
 - Observe how the sketch code shows the potentiometer values in the Serial Monitor (turn the potentiometer)  
 
 
