@@ -320,7 +320,7 @@ The ESP32 DevKit V1 has two important buttons:
 
 **Location:** Both buttons are located on the ESP32 development board next to the USB connector.
 
-
+---
 
 ## Uploading Sketches to ESP32 DevKit
 
@@ -335,7 +335,7 @@ The ESP32 DevKit V1 has two important buttons:
 4. **Click Upload** - Arrow symbol in Arduino IDE or Ctrl+U (Cmd+U on Mac)
 5. **Wait** - sketch compiles: "Connecting..." appears: Press and hold the **BOOT button** for about **2 seconds** during the "Connecting..." phase, then release.
 
-
+---
 
 ## Open Serial Monitor for the ESP32 DevKit
 
@@ -353,7 +353,7 @@ The ESP32 DevKit V1 has two important buttons:
 
 
 
-
+---
 
 
 
