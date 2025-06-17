@@ -4,7 +4,7 @@
 // Demonstration of ESP32 32-bit architecture. 
 // Shows how 8-bit (0-255) and 32-bit (0-4,294,967,295) variables differ in their value ranges and memory usage.
 // 
-// Goal:
+// hands on:
 //    - Upload a program sketch to the ESP32 microcontroller for the first time
 //    - Open the Serial Monitor
 //    - Observe how the 8-bit variable jumps back to 0 after reaching 255
@@ -23,7 +23,7 @@ uint64_t bit32max = pow(2, 32);
 
 // setup() starts automatically as soon as the ESP32 is powered.
 void setup() {
-  // start the Serial Monitor
+  // start the Serial Monitor with Baudrate: 115200 bits per second
   Serial.begin(115200);
 }
 
