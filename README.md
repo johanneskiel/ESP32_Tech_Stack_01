@@ -302,6 +302,7 @@ TCP and UDP are the two main transport protocols that determine how data is tran
 The ESP32 DevKit V1 is a widely used development board that combines the ESP32 microcontroller with all the necessary components for development. It has 30 GPIO pins that support various functions: digital inputs/outputs, analog inputs, PWM outputs, SPI and I2C interfaces. The board is powered and programmed via micro USB.
 
 ![ESP32 DevKit V1](https://m.media-amazon.com/images/I/518GSZDPb6L._AC_.jpg)
+![ESP32 DevKit V1 Poti](https://raw.githubusercontent.com/johanneskiel/ESP32_Tech_Stack_01/refs/heads/main/ESP32_poti.png)
 
 ---
 
