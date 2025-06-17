@@ -307,6 +307,56 @@ The ESP32 DevKit V1 is a widely used development board that combines the ESP32 m
 ---
 
 
+
+
+
+
+## Buttons on the ESP32 DevKit V1
+
+The ESP32 DevKit V1 has two important buttons:
+
+- **EN Button (Reset)** - Restarts the ESP32 and runs the uploaded sketch from the beginning
+- **BOOT Button (Flash/GPIO0)** - Used for uploading sketches when automatic upload fails. Also programmable as regular input button in your code
+
+**Location:** Both buttons are located on the ESP32 development board next to the USB connector.
+
+
+
+## Uploading Sketches to ESP32 DevKit
+
+**Upload process:**
+
+1. **Connect ESP32 via USB** - Use micro-USB cable to connect to computer
+2. **Select Board** - In Arduino IDE: "Tools" → "Board" → "ESP32 Dev Module" 
+3. **Select Port** - "Tools" → "Port" → Choose ESP32 USB port:
+   - **Windows:** COM3, COM4, COM5...
+   - **Mac:** /dev/cu.usbserial-... or /dev/cu.SLAB_USBtoUART
+   - **Linux:** /dev/ttyUSB0, /dev/ttyUSB1...
+4. **Click Upload** - Arrow symbol in Arduino IDE or Ctrl+U (Cmd+U on Mac)
+5. **Wait** - sketch compiles: "Connecting..." appears: Press and hold the **BOOT button** for about **2 seconds** during the "Connecting..." phase, then release.
+
+
+
+## Open Serial Monitor for the ESP32 DevKit
+
+**Accessing Serial Monitor:**
+
+1. **Upload sketch first** - Make sure your code includes `Serial.begin(115200);` in setup()
+2. **Open Serial Monitor** - Click magnifying glass icon in Arduino IDE or "Tools" → "Serial Monitor"
+3. **Set baud rate** - Select **115200** in dropdown (bottom right of Serial Monitor window)
+4. **View output** - Real-time text output from ESP32 appears here
+
+**Useful for:** Debugging code, monitoring sensor values, checking WiFi connection status, and viewing error messages.
+
+**Tip:** If no output appears, press the **EN (Reset) button** on ESP32 to restart and trigger Serial output.
+
+
+
+
+
+
+
+
 ## ESP32 Code Examples
 
 The ESP32 code examples provided systematically guide you through the most important functions of the microcontroller and show practical applications for digital art projects. They start with basic concepts such as the 32-bit architecture and hardware setup, moving through multithreading and WiFi functionality to more complex network protocols. Each example builds on the previous one, covering both technical basics and practical applications.
