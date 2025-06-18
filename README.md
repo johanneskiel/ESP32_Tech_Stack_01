@@ -277,7 +277,7 @@ The internet communication follows a layered model where each layer has specific
 | **Network access layer** (Link Layer) | Ethernet, WLAN (Wi-Fi) |
 | **Internet layer** (Network Layer) | IP (IPv4, IPv6) |
 | **Transport layer**  | TCP, UDP |
-| **Application layer**  | HTTP, OSC, FTP, SMTP, DNS |
+| **Application layer**  | HTTP, OSC, FTP, SMTP, DNS, DHCP|
 
 ## TCP | UDP
 
@@ -290,7 +290,7 @@ TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two
 | **Order** | Correct order (numbers packets) | No order (packets can overtake) |
 | **Speed** | Slower (greater overhead / administrative data) | Faster (minimal overhead / administrative data) |
 | **Usage** | Websites, email, file transfer | Live audio, gaming, video streaming |
-| **Protocols** | HTTP, HTTPS, FTP, SMTP | OSC, DNS, RTP |
+| **Protocols** | HTTP, HTTPS, FTP, SMTP | OSC, DNS, RTP, DHCP|
 ---
 
 
