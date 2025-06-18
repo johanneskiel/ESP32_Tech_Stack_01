@@ -274,8 +274,8 @@ The internet communication follows a layered model where each layer has specific
 
 | **Layer** | **Example protocols** |
 | ----------------------------------------- | -------------------------------- |
-| **Network access layer** (Link Layer) | Ethernet, WLAN (Wi-Fi) |
-| **Internet layer** (Network Layer) | IP (IPv4, IPv6) |
+| **Network access layer** | Ethernet, WLAN (Wi-Fi) |
+| **Internet layer**| IP (IPv4, IPv6) |
 | **Transport layer**  | TCP, UDP |
 | **Application layer**  | HTTP, OSC, FTP, SMTP, DNS, DHCP|
 
