@@ -281,7 +281,7 @@ The internet communication follows a layered model where each layer has specific
 
 ## TCP | UDP
 
-TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two main transport protocols that determine how data is transmitted over networks. The choice between them depends on your application's requirements: TCP prioritizes reliability and order (ideal for web servers and file transfers), while UDP prioritizes speed and efficiency (perfect for 
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two main transport protocols that determine how data is transmitted over networks. The choice between them depends on your application's requirements: TCP prioritizes reliability and order, while UDP prioritizes speed and efficiency
 
 | | **TCP** | **UDP** |
 |-------------|-----|-----|
